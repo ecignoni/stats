@@ -11,7 +11,7 @@ def kde1D(X, bw=None, weights=None, gridmin=None, gridmax=None, bins=100,
     X           : ndarray (N_samples,)
                 Dataset
     bw          : float or None (default None)
-                Kernel bandwidth. If None, Silverman's rule of rhumb is used
+                Kernel bandwidth. If None, Silverman's rule of thumb is used
                 to guess the optimal bandwidth. Ignored if `periodic=True`.
     weights     : ndarray (N_samples) or None
                 Sample weights. If None, equal weights are assigned to each point
