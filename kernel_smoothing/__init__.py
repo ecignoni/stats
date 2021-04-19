@@ -1,2 +1,2 @@
 
-from kde import kde1D
+from .kde import kde1D
